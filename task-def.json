@@ -1,6 +1,7 @@
 {
     "family": "sample-fargate", 
-    "networkMode": "awsvpc", 
+    "networkMode": "awsvpc",
+    "executionRoleArn": "arn:aws:iam::906819964010:role/ecsTaskExecutionRole", 
     "containerDefinitions": [
         {
             "name": "fargate-app", 
